@@ -1,0 +1,6 @@
+[submodule "lib/box2d"]
+	path = lib/box2d
+	url = https://github.com/thinkpixellab/box2d.git
+[submodule "lib/three"]
+	path = lib/three
+	url = https://github.com/mrdoob/three.js.git
