@@ -55,6 +55,6 @@ app.get('/threeBox', function(req, res){
 // Only listen on $ node app.js
 
 if (!module.parent) {
-  app.listen(8080);
+  app.listen(8082);
   console.log("Express server listening on port %d", app.address().port)
 }
