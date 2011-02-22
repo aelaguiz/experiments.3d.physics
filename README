@@ -1,2 +1,6 @@
-Cat-a-pult game
+Experiments with canvas, box2d and three.js
+
+node app.js
+
+http://localhost:8082
 
