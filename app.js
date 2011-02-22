@@ -52,6 +52,14 @@ app.get('/threeBox', function(req, res){
   });
 });
 
+app.get('/gunTest', function(req, res){
+  res.render('gunTest', {
+    locals: {
+      title: 'Three.js + box2d Gun'
+    }
+  });
+});
+
 // Only listen on $ node app.js
 
 if (!module.parent) {
