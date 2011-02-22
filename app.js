@@ -39,11 +39,18 @@ app.get('/', function(req, res){
 app.get('/threeTest', function(req, res){
   res.render('threeTest', {
     locals: {
-      title: 'Three.js test'
+      title: 'Three.js Flying Grid'
     }
   });
 });
 
+app.get('/threeBox', function(req, res){
+  res.render('threeBox', {
+    locals: {
+      title: 'Three.js + box2d Flying Grid'
+    }
+  });
+});
 
 // Only listen on $ node app.js
 
