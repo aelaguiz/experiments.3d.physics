@@ -60,6 +60,14 @@ app.get('/gunTest', function(req, res){
   });
 });
 
+app.get('/objectsTest', function(req, res){
+  res.render('objectsTest', {
+    locals: {
+      title: 'Three.js + box2d Objects'
+    }
+  });
+});
+
 // Only listen on $ node app.js
 
 if (!module.parent) {

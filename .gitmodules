@@ -1,3 +1,6 @@
 [submodule "lib/three"]
 	path = lib/three
 	url = https://github.com/mrdoob/three.js.git
+[submodule "jKey"]
+	path = jKey
+	url = https://github.com/OscarGodson/jKey.git
